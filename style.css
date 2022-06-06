@@ -94,7 +94,12 @@ button:hover{
 
 .card{
     border: 1px solid black;
-    width: 35rem;
+    width: 25rem;
+}
+
+.card-body{
+    margin-top: 2em;
+    height: 12rem;
 }
 
 .card-title{
@@ -106,7 +111,7 @@ button:hover{
 .card-text{
     margin: 1.5em;
     line-height: 1.3em;
-    text-align: justify;
+    text-align:start;
 }
 
 .card-subtitle{
@@ -123,6 +128,9 @@ button:hover{
     .card{
         width: 18rem;
     }
+    .card-body{
+        height: auto;
+    }
     h2{
         font-size: 1.5em;
     }
@@ -132,6 +140,7 @@ button:hover{
     .card-title{
         font-size: 1em;
     }
+    
 }
 
 @media (min-width: 601px) and (max-width: 1000px){ 
