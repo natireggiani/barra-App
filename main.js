@@ -94,7 +94,7 @@ let borrar = document.getElementById('clean')
 let boton = document.getElementById('button')
 let select = document.querySelector('#opciones')
 
-boton.addEventListener('click', function(e){
+function handleClick(e){
     e.preventDefault();
     document.body.style.backgroundColor = 'white';
     consulta.style.display = 'none';
@@ -118,24 +118,22 @@ boton.addEventListener('click', function(e){
     
     barra.map(el=>{
         let resultado = document.createElement('div')
-        resultado.innerHTML = `<div class='resultado'>
-        <div class="card resultado" >
-        <h3 class="card-title">${el.nombre}</h3>
-        <img src="${el.imagen}" class="card-img-top imagen" alt="foto de ${el.nombre}">
-        <div class="card-body">
-            <h4 class="card-subtitle mb-2 text-muted">Receta:</h4>
-            <p class="card-text">${el.receta}</p>
-        </div>
-        </div>
-        </div>
-        `
+        resultado.innerHTML = `<div class="card resultado">
+                                    <h3 class="card-title">${el.nombre}</h3>
+                                    <img src="${el.imagen}" class="card-img-top imagen" alt="foto de ${el.nombre}">
+                                    <div class="card-body">
+                                        <h4 class="card-subtitle mb-2 text-muted">Receta:</h4>
+                                        <p class="card-text">${el.receta}</p>
+                                    </div>
+                                </div>`
         document.getElementById('res').appendChild(resultado)
     })
-})
+}
 
-borrar.addEventListener('click', function(){
-    window.location.reload()
-})
+const clean = () => { window.location.reload() }
+
+boton.addEventListener('click', handleClick)
+borrar.addEventListener('click', clean)
         
         
 
