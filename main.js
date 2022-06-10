@@ -4,8 +4,6 @@ let consulta = document.querySelector('.consulta')
 let borrar = document.getElementById('clean')
 let boton = document.getElementById('button')
 let select = document.querySelector('#opciones')
-console.log(cocktails)
-
 
 function handleClick(e){
     e.preventDefault();
@@ -14,7 +12,6 @@ function handleClick(e){
     borrar.classList.remove('borrar')
     // let input = uno.value
     let input = select.value
-    console.log(select.value)
     let barra = []
     
     cocktails.forEach(e =>{
@@ -22,7 +19,6 @@ function handleClick(e){
             if(ing === input){
                 barra.push(e)
             }}) });    
-    console.log(barra)
     let titulo = document.createElement('div')
     titulo.innerHTML = `<div class = 'resultado'>
     <h2>Tragos con ${input}</h2>
