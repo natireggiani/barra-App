@@ -83,7 +83,7 @@ const cocktails =[
         imagen:'https://coctelia.com/wp-content/uploads/2020/05/caipiroska.jpg',
         receta:`Machacar en un vaso corto 1/2 lima en trozos junto con 25 gr de azúcar.
         Incorporar abundante hielo picado y 50 ml de vodka.
-        Con una cuchara en espiral subimos las limas del fondo del vaso para integrar.`,
+        Con una cuchara en espiral subir las limas del fondo del vaso para integrar.`,
         ingredientes:['vodka', 'lima']
     }
 ]
