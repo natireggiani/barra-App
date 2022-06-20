@@ -3,9 +3,9 @@ const cocktails =[
     {
         nombre :'Old Fashioned',
         imagen:'https://www.clarin.com/img/2020/09/08/I_AzjvVPc_340x340__1.jpg',
-        receta:`Refrescar en un mixin glass con abundante hielo 60 ml de Bourbon, 7 ml de almibar simple y 2 dash de Bitter Angostura.
+        receta:`Refrescar en un mixin glass con abundante hielo 60 ml de Whisky, 7 ml de almibar simple y 2 dash de Bitter Angostura.
         Servir y perfumar con los aceites de la piel de naranja.`,
-        ingredientes:['bourbon', 'almibar', 'bitter angostura', 'naranja']
+        ingredientes:['whisky', 'almibar', 'bitter angostura', 'naranja']
     },
 
     {
@@ -46,10 +46,10 @@ const cocktails =[
     {
         nombre:'Manhattan', 
         imagen:'https://imag.bonviveur.com/foto-de-portada-del-manhattan.webp',
-        receta:`Colocar 50ml de Bourbon, 25 ml de Martini Rosso y 2 dash de Bitter Angostura en un
+        receta:`Colocar 50ml de Whisky, 25 ml de Martini Rosso y 2 dash de Bitter Angostura en un
         mixin glass y refrescar por aproximadamente 30 segundos. Colar sobre una copa de 
         cocktail previamente refrescada. Perfumar y decorar con piel de naranja y una cereza.`,
-        ingredientes:['bourbon', 'martini rosso', 'bitter angostura']
+        ingredientes:['whisky', 'martini rosso', 'bitter angostura']
     },
 
     {
@@ -90,10 +90,10 @@ const cocktails =[
     {
         nombre:'Mint Julep', 
         imagen:'https://coctelia.com/wp-content/uploads/2018/06/mint-julep.jpg',
-        receta:`Agregar 50ml de Bourbon, 7ml de almíbar simple y 3 hojas de menta en un vaso con
+        receta:`Agregar 50ml de Whisky, 7ml de almíbar simple y 3 hojas de menta en un vaso con
         una parte de hielo. Revolver con una varilla de coctelería. Añadir más hielo picado y 
         decorar con penachos de menta fresca.`,
-        ingredientes:['bourbon', 'almibar', 'menta']
+        ingredientes:['whisky', 'almibar', 'menta']
     },
 
     {
@@ -142,10 +142,10 @@ const cocktails =[
     {
         nombre:'Whisky Sour', 
         imagen:'https://cocinaalchile.com/wp-content/uploads/2020/03/whisky.jpg',
-        receta:`Colocar 45ml de Bourbon, 30ml de jugo de limón y 2ctas de azúcar en una coctelera con hielo
+        receta:`Colocar 45ml de Whisky, 30ml de jugo de limón y 2ctas de azúcar en una coctelera con hielo
         y agitar durante 10 segundos. Colar y servir en vaso corto con hielo. Decorar con cáscara 
         de naranja.`,
-        ingredientes:['bourbon', 'jugo de limon', 'azucar']
+        ingredientes:['whisky', 'jugo de limon', 'azucar']
     },
 
     {
