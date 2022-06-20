@@ -85,5 +85,31 @@ const cocktails =[
         Incorporar abundante hielo picado y 50 ml de vodka.
         Con una cuchara en espiral subir las limas del fondo del vaso para integrar.`,
         ingredientes:['vodka', 'lima']
-    }
+    },
+
+    {
+        nombre:'Mint Julep', 
+        imagen:'https://coctelia.com/wp-content/uploads/2018/06/mint-julep.jpg',
+        receta:`Agregar 50ml de Bourbon, 7ml de almíbar simple y 3 hojas de menta en un vaso con
+        una parte de hielo. Revolver con una varilla de coctelería. Añadir más hielo picado y 
+        decorar con penachos de menta fresca.`,
+        ingredientes:['bourbon', 'almibar', 'menta']
+    },
+
+    {
+        nombre:'Margarita', 
+        imagen:'https://bakeitwithlove.com/wp-content/uploads/2021/09/Vodka-Margarita-sq.jpg',
+        receta:`Colocar 50ml de Tequila, 25ml de Cointreau y 25 ml de jugo de limón
+        en una coctelera y batir enérgicamente con abundante hielo. Colar y servir
+        en copa cocktail labiada con sal.`,
+        ingredientes:['tequila', 'cointreau', 'jugo de limon']
+    },
+
+    {
+        nombre:'Side Car', 
+        imagen:'https://recetasfacilesok.com/wp-content/uploads/2021/06/Como-hacer-sidecar.jpg',
+        receta:`Colocar 50ml de Cognac, 25ml de Cointreau y 25ml de jugo de limón en una coctelera
+        con abundante hielo y batir enérgicamente. Colar y servir perfumando con limón deshidratado.`,
+        ingredientes:['cognac', 'cointreau', 'jugo de limon']
+    },
 ]
