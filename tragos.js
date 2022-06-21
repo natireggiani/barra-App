@@ -134,7 +134,7 @@ const cocktails =[
     {
         nombre:'Daiquiri', 
         imagen:'https://www.tucocteleria.com/wp-content/uploads/2018/04/Daiquiri.jpg',
-        receta:`Colocar 60ml de Ron, 30ml de jugo de lima y 2ctas de azúcar en una ccotelera 
+        receta:`Colocar 60ml de Ron, 30ml de jugo de lima y 2ctas de azúcar en una coctelera 
         con abundante hielo. Batir enérgicamente, colar y servir en copa cocktail.`,
         ingredientes:['ron', 'jugo de lima', 'azucar']
     },
