@@ -72,7 +72,7 @@ const cocktails =[
 
     {
         nombre:'Hanky Panky', 
-        imagen:'https://www.cocinayvino.com/wp-content/uploads/2017/10/coctel-hanky-panky.jpg',
+        imagen:'https://www.bebermagazine.com/wp-content/uploads/2021/01/boozy-classic-hanky-panky-cocktail-7L872LJ-759x500.jpg',
         receta:`Refrescar en un mixin glass 45 ml de Gin, 45 ml de Martini Rosso y 1cda de Fernet.
         Servir y perfumar con los aceites de naranja.`,
         ingredientes:['gin', 'martini rosso', 'fernet']
