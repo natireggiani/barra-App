@@ -10,7 +10,7 @@ const cocktails =[
 
     {
         nombre:'Moscow Mule',
-        imagen:'https://www.petramora.com/blog/wp-content/uploads/2018/07/IMG_9398.jpg',
+        imagen:'	https://elcoctelero.com/wp-content/uploads/2021/05/coctel-mosow-mule.jpg',
         receta:`Volcar 50 ml de vodka, 25 ml de jugo de lima, 20ml de almibar simple y hielo en un vaso mule, integrar con una cuchara coctelera.
         Completar con ginger beer y decorar con una cuña de lima y jengibre caramelizado.`,
         ingredientes:['vodka', 'jugo de limon', 'almibar', 'ginger beer']
